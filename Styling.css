@@ -136,7 +136,7 @@ border-radius: 72px;
 }
 .heading1{
   position: relative;
-  //background: crimson;
+  /*background: crimson;*/
   width: 805px;
 height: 125px;
 left: 25%;
@@ -154,7 +154,7 @@ margin: 0px 90px;*/
 }
 .heading2{
   position: relative;
-  //background: darkkhaki;
+  /*background: darkkhaki;*/
 width: 802px;
 height: 62px;
 left: 25%;
@@ -172,7 +172,7 @@ text-align: center;
   height: 206.5px;
   margin: 240px auto 100px;
   font-weight: 600;
-  //background:#F8F8F8; 
+  /*background:#F8F8F8; */
 }
 .container .box{
   position: relative;
@@ -551,7 +551,7 @@ color: #262626;
     right: 0px;
     top: 100px;
   
-  //margin: 240px auto;
+  /*margin: 240px auto;*/
   font-weight: 600;
 
   }
@@ -559,9 +559,9 @@ color: #262626;
     position: relative;
     width: 471px;
     height: 94px;
-    //float: left;
+    /*float: left;
     //margin-right: 63px;
-    //top: 18.5px;
+    //top: 18.5px;*/
     background: white;
     box-sizing: border-box;
     overflow: hidden;
