@@ -120,6 +120,7 @@ padding-left: 25px;
 
 .item-list li {
   max-width: 315px;
+  width: 100%;
   position: relative;
   /*padding-top: 37px;*/
   padding-left: 9px;
@@ -161,15 +162,15 @@ text-align: center;
   flex-wrap: wrap;
   margin-top: 46px;
 }
-.server-list li {
+/*.server-list li {
   /*width: 30%;
   position: relative;
   padding-top: 37px;
   padding-left: 18px;
   padding-bottom: 18px;
-  padding-right: 18px;*/
+  padding-right: 18px;
   margin-bottom: 48px;
-}
+}*/
 .content-section-3 {
   background: url(../image/Mask\ Group_orange_right.png) right top no-repeat;
   
@@ -179,11 +180,10 @@ text-align: center;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: blueviolet;
+  margin-top: 118px;
 }
 .contact-form{
   max-width: 517px;
-  width: 100%;
   cursor: default;
   background: #FFFFFF;
 
@@ -195,7 +195,9 @@ line-height: 31px;
 margin-left: 44px;
 margin-top: 34px;
 }
-
+.contact-form .main{
+  margin-left: 45px;
+}
 td{
   padding-bottom: 4px;
 }
@@ -409,6 +411,9 @@ margin-left: 180px;*/
 
 }
 .container2 h2{
+  position: relative;
+  left: -22.5px;
+  display: flex;
   padding-top: 34px;
   padding-left: 20.44px;
   margin-bottom: 38.5px;
@@ -421,7 +426,7 @@ line-height: 52px;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: stretch;
+  /*align-items: stretch;*/
   
   
 }
@@ -434,7 +439,7 @@ ul.box2 li {
   padding-left: 18px;
   padding-bottom: 18px;
   padding-right: 18px;*/
-  padding: 20.44px 270px 20.56px 52px;
+  padding: 20.44px 20px 20.56px 52px;
   background: #FFFFFF;
   text-align: left;
   margin-bottom: 11px;
@@ -443,7 +448,7 @@ ul.box2 li h2 {
   font-size: 18px;
   line-height: 24px;
   font-weight: 600;
-  padding: 20.44px 178px 0px 52px;
+  padding: 20px 178px 0px 52px;
   /*margin-bottom: 15px;*/
 }
 
@@ -491,17 +496,33 @@ font-size: 18px;
 line-height: 23px;
 }
 @media screen and (max-width: 600px)
-{
+{.navigation-block{
+  display: none;
+}
+
 .item-list{
   flex-direction: column;
   align-items: center;
 }
+.server-list .server-item{
+  display: none;
+}
   .item-list1
   {
     justify-content: center;
-    min-width: auto;
   }
 .contact-form{
   display: none;
+}
+.container2 h2{
+  justify-content: center;
+}
+ul.box2 li{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.foo{
+  margin: 0px;
+  padding: 15.87px 49px 41.13px 48px;
 }
 }
