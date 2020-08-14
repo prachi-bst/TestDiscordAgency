@@ -119,7 +119,7 @@ padding-left: 25px;
 }
 
 .item-list li {
-  width: 30%;
+  max-width: 315px;
   position: relative;
   /*padding-top: 37px;*/
   padding-left: 9px;
@@ -172,41 +172,88 @@ text-align: center;
 }
 .content-section-3 {
   background: url(../image/Mask\ Group_orange_right.png) right top no-repeat;
+  
 }
 .item-list1 {
-  display: flex;
+  position: relative;
+  display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
+  background: blueviolet;
 }
-.container1{
+.contact-form{
   max-width: 517px;
   width: 100%;
   cursor: default;
   background: #FFFFFF;
+
 }
-.container1 h3{
+.contact-form h3{
   font-weight: 600;
 font-size: 24px;
 line-height: 31px;
 margin-left: 44px;
-margin-top: 35px;
+margin-top: 34px;
+}
+
+td{
+  padding-bottom: 4px;
+}
+.select{
+  padding: 9px 0px 9px 5px; 
+  font-size: 16px;
+  background: #FFFFFF;
+  border: 1px solid rgba(67, 96, 94,0.2);
+}
+
+ input.link-input{
+  padding: 8px;
+  /*padding-right: 270px;*/
+  max-width: 465px;
+  width: 100%;
+  
+}
+ ::-webkit-input-placeholder{
+  font-size: 12px;
+/*line-height: 24px;*/
+
+/* identical to box height, or 200% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #747C7B;
+
+opacity: 0.6;
+}
+#help{
+  padding: 9px 390px 9px 5px; 
+  font-size: 16px;
+  background: #FFFFFF;
+  border: 1px solid rgba(67, 96, 94,0.2);
+}
+/*.dropdown::before{
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  background: yellowgreen;
 }
 .container1 p{
   font-size: 16px;
   margin-left: 45px;
   line-height: 24px;
 }
-/*.container1 p.p1{
+.container1 p.p1{
 margin-top: 35px;
 }
 .container1 p.p2{
   margin-top: 12px;
-  }*/
+  }
   .container1 p .arpit{
     /*padding-right: 110px;
     padding-left: 8px;*/
-    margin-right: 25px;
+   /* margin-right: 25px;
     padding: 8px 110px 8px 8px;
     
     border: 1px solid rgba(67, 96, 94,0.2);
@@ -218,15 +265,15 @@ margin-top: 35px;
     border: 1px solid rgba(67, 96, 94,0.2);
     border-radius: 3px;
   }
-  /*.container1 p.p3{
+  .container1 p.p3{
     margin-top: 32px;
   }
   .container1 p.p3 .count{
     margin-right: 157px;
-  }*/
+  }
   .container1 p.p1{
     /*margin-top: 4px;*/
-    margin-bottom: 32px;
+   /* margin-bottom: 32px;
   }
   .container1 p.p1 .invisible{
     padding: 10px 98px;
@@ -243,16 +290,49 @@ margin-top: 35px;
   .container1 p span.radio-group{
   margin-right: 80px;
   margin-left: 90px;
-  }
-  /*.radio{
+  }*/
+  .radio{
     position: relative;
     padding-left: 30px;
   
   }
   .radio + .radio{
     margin-left: 30px;
-  }*/
-  .container1 p span.radio-group .span1{
+  }
+  .radio input[type="radio"]{
+    display: none;
+  }
+  .radio span{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid #262626;
+    display: block;
+    position: absolute;
+    left:10px;
+    top: 13%;
+    transition: 300ms ease-in-out 0s;
+  }
+  .radio span::after{
+    content: "";
+    height: 7px;
+    width: 7px;
+    background: #FF4100;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+  }
+  .radio input[type="radio"]:checked ~ span::after{
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .radio input[type="radio"]:checked + span{
+    border: 1px solid #FF4100;
+  }
+  /*.container1 p span.radio-group .span1{
     position: relative;
     height: 10px;
     width: 10px;
@@ -260,9 +340,9 @@ margin-top: 35px;
     border: 1px solid #FF4100;
     display: inline-flex;
     margin-right: 8px;
-   /* position: absolute;
+    position: absolute;
     left:7px;
-    top: 5%;*/
+    top: 5%;
   }
   .container1 p span.radio-group .span2{
     height: 10px;
@@ -275,7 +355,7 @@ margin-top: 35px;
     /*position: absolute;
     left:7px;
     top: 5%;*/
-  }
+  /*}
   .span1::after{
     content: "";
     height: 7px;
@@ -292,7 +372,7 @@ margin-top: 35px;
   font-size: 12px;
   line-height: 24px;
   /* identical to box height, or 200% */
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 32px;
   color: #747C7B;
@@ -306,16 +386,17 @@ margin-top: 35px;
     padding: 12px 8px 12px 380px;
     border: 1px solid rgba(67, 96, 94,0.2);
     margin-left: 0px;
-  }
+  }*/
   .button1{
     padding: 16px 0px;
     background: #FF4100;
+    border: 1px solid #FF4100;
     border-radius: 77px;
   max-width: 218px;
   width: 100%;
   text-align: center;
   color: #FFFFFF;
-  margin: 32px auto 24px;
+  margin: 32px 150px 24px;
   font-weight: 600;
   font-size: 18px;
   line-height: 23px;
@@ -323,6 +404,9 @@ margin-top: 35px;
 .container2{
   max-width: 471px;
   width: 100%;
+/*display: inline-block;
+margin-left: 180px;*/
+
 }
 .container2 h2{
   padding-top: 34px;
@@ -333,17 +417,24 @@ font-size: 40px;
 line-height: 52px;
 }
 .box2{
- /* justify-content: space-between;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: stretch;
+  
+  
 }
 ul.box2 li {
   /*height: 23%;*/
+  max-width: 471px;
   position: relative;
+  right: 0px;
   /*padding-top: 37px;
   padding-left: 18px;
   padding-bottom: 18px;
   padding-right: 18px;*/
-  padding: 20.44px 178px 20.56px 52px;
+  padding: 20.44px 270px 20.56px 52px;
   background: #FFFFFF;
   text-align: left;
   margin-bottom: 11px;
@@ -352,7 +443,7 @@ ul.box2 li h2 {
   font-size: 18px;
   line-height: 24px;
   font-weight: 600;
-  /*padding: 20.44px 178px 0px 52px;
+  padding: 20.44px 178px 0px 52px;
   /*margin-bottom: 15px;*/
 }
 
@@ -369,18 +460,21 @@ ul.box2 li h2 {
   max-width: 45px;
 }
 .foo{
-  padding-top: 107px;
-  padding-left: 170.55px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 20px;
+  /*padding-top: 107px;
+  padding-left: 170.55px;*/
   font-size: 16px;
 line-height: 21px;
 /* identical to box height */
 text-align: center;
-
 color: #747C7B;
 }
 .foo img{
   margin: 0px 9px;
   max-width: 16px;
+  max-height: 16px;
 }
 .button2{
   padding: 16px 0px;
@@ -395,4 +489,19 @@ margin: 24px auto;
 font-weight: 600;
 font-size: 18px;
 line-height: 23px;
+}
+@media screen and (max-width: 600px)
+{
+.item-list{
+  flex-direction: column;
+  align-items: center;
+}
+  .item-list1
+  {
+    justify-content: center;
+    min-width: auto;
+  }
+.contact-form{
+  display: none;
+}
 }
