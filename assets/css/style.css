@@ -205,18 +205,23 @@ margin-top: 34px;
 td{
   padding-bottom: 4px;
 }
+
 .select{
-  padding: 9px 0px 9px 5px; 
+  padding: 9px 120px 9px 5px; 
   font-size: 16px;
   background: #FFFFFF;
   border: 1px solid rgba(67, 96, 94,0.2);
+  -webkit-appearance: none;
+  outline: none;
 }
-
  input.link-input{
   padding: 8px;
   /*padding-right: 270px;*/
-  max-width: 465px;
+  max-width: 445px;
   width: 100%;
+  font-size: 12px;
+  border: 1px solid rgb(67, 96, 94,0.2);
+  border-radius: 2px;
   
 }
  ::-webkit-input-placeholder{
@@ -233,10 +238,17 @@ color: #747C7B;
 opacity: 0.6;
 }
 #help{
-  padding: 9px 390px 9px 5px; 
+  padding: 9px 385px 9px 5px; 
   font-size: 16px;
   background: #FFFFFF;
   border: 1px solid rgba(67, 96, 94,0.2);
+}
+.main .icon{
+  position: relative;
+}
+.icon select{
+max-width: 430px;
+width: 100%;
 }
 /*.dropdown::before{
   position: absolute;
