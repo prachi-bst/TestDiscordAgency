@@ -280,16 +280,37 @@ color: #0082E5;
 font-size: 36px;
 line-height: 48px;
 padding-top: 80px;
+margin-bottom: 40px;
 /* White */
 
 color: #FFFFFF;
 }
+.section4 .round-points
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section4 .round-points .point-items
+{
+  position: relative;
+  max-width: 336px;
+  width: 100%;
+  margin-bottom: 24px;
+  /*background-color: aqua;*/
+  
+}
+.section4 .round-points .point-items img
+{
+  position: absolute;
+  top: 5%;
+}
 .section4 .round-points .point-items p{
-
+  display: inline-block;
+margin-left: 56px;
 font-weight: normal;
 font-size: 18px;
 line-height: 28px;
 /* Lighter Blue */
-
 color: #B0CFE5;
 }
