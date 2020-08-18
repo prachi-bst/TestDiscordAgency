@@ -249,7 +249,7 @@ line-height: 28px;
 margin-bottom: 40px;
 color: #556789;
 }
-.section3 .button-read-more
+ .button-read-more
 {
  /* display: flex;*/
   font-weight: normal;
@@ -265,7 +265,7 @@ padding: 10px  10px 10px 32px;
 border: 2px solid #0082E5;
 color: #0082E5;
 }
-.section3 .button-read-more .down
+ .button-read-more .down
 {
   padding-right:  32px; 
   padding-left:  10px;
@@ -293,24 +293,252 @@ color: #FFFFFF;
 }
 .section4 .round-points .point-items
 {
-  position: relative;
   max-width: 336px;
   width: 100%;
   margin-bottom: 24px;
+
   /*background-color: aqua;*/
   
 }
-.section4 .round-points .point-items img
+/*.section4 .round-points .point-items img
 {
   position: absolute;
   top: 5%;
+}*/
+.round
+{
+  border: 1px solid #37A8FF;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #37A8FF;
+  padding: 15px;
+  font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+margin-right: 5px;
 }
 .section4 .round-points .point-items p{
-  display: inline-block;
-margin-left: 56px;
+  display: inline-flex;
+margin-left: 5px;
 font-weight: normal;
 font-size: 18px;
 line-height: 28px;
+padding-bottom: 0px;
+margin-top: 0px;
 /* Lighter Blue */
 color: #B0CFE5;
+}
+.section4 .center
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 1072px;
+  width:100%;
+  background: aqua;
+}
+.section4 .center img
+{
+  
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.section4 .center img.play{
+ position: absolute;
+ top: 35%;
+ left: 48%;
+}
+.section4 .center h4{
+  position: absolute;
+  color: #ffffff;
+  top: 53%;
+  font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+
+.section4 p{
+font-size: 18px;
+line-height: 28px;
+/* Lighter Blue */
+margin-top: 38px;
+padding-bottom: 80px;
+padding-right: 5px;
+color: #B0CFE5;
+}
+.section5{
+  background: #E4EEF5;
+}
+.section5 h2
+{
+  font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+padding-top: 80px;
+/* Storm Blue */
+
+color: #28304C;
+}
+.section5 .bluestacks-features
+{
+  display: flex;
+  justify-content: space-around;
+  /*background-color: beige;*/
+  margin-top: 40px;
+}
+.section5 .bluestacks-features ul.features{
+  display: flex;
+  flex-direction: column;
+  
+}
+.section5 .bluestacks-features ul.features li{
+  margin-bottom: 16px;
+  padding-right: 10px;
+}
+.section5 .bluestacks-features ul.features h3{
+  font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+border-right: none;
+/* Dark Grey */
+
+color: #556789;
+}
+.section5 .bluestacks-features ul.features p{
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: right;
+
+/* Dark Grey */
+
+color: #556789;
+}
+.section5 .bluestacks-features ul.features li.active
+{
+  border-right: 2px solid #0082E5;
+}
+.section5 .bluestacks-features ul.features p.active{
+  color: #0082E5;
+  
+}
+.section5 .bluestacks-features .images{
+  position: relative;
+  /*background-color: brown;*/
+max-width: 722px;
+width: 100%;
+}
+.section5 .bluestacks-features .images .img1{
+  position: absolute;
+  z-index: 1;
+  left: 2%;
+}
+.section5 .bluestacks-features .images .img2{
+  position: absolute;
+  top: 59%;
+  
+}
+.section5 .bluestacks-features .images .img3{
+position: absolute;
+right: 0%;
+bottom: 5%;
+}
+.section6 .top-part{
+display: flex;
+justify-content: space-between;
+margin-top: 56px;
+}
+.section6 .top-part h2{
+  font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+
+/* Storm Blue */
+
+color: #28304C;
+}
+.section6 .top-part p{
+  font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+align-self: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* Dark Blue */
+
+color: #0082E5;
+}
+.section6 .games
+{
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.section6 .games .part .card
+{
+  display: inline;
+  float: right;
+  margin-left: 24px;
+}
+.section6 .games .part .card h3{
+  margin-top: 20px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* Storm Blue */
+
+color: #28304C;
+}
+.section6 .games .part{
+  display: flex;
+  margin-bottom: 64px;
+  max-width: 337px;
+  width: 100%;
+  box-shadow: 2px 2px 3px #aaaaaa;
+}
+.section6 .games .part .card{
+
+}
+.section6 .games .part .card p{
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* Black 0.6 */
+color: rgba(0, 0, 0, 0.6);
+}
+.section7{
+  background: url(./assets/image/Components/Background_Image.png);
+}
+.section7 .container{
+  padding: 56px 0px;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.section7 h1{
+  max-width: 700px;
+  width: 100%;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+color: #FFFFFF;
+
+}
+.section7 button{
+  margin: auto 0px;
+  padding: 10px 32px;
+  font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #ffffff;
+background: #64B305;
+border: none;
 }
