@@ -188,7 +188,7 @@ color: #556789;
 }
 .section2
 {
-  margin-left: 350px;
+  margin-left: 20%;
 }
 .section2 .games-images
 {
@@ -211,9 +211,11 @@ position: relative;
 .section2 .games-images li .right
 {
   position: absolute;
-  top: 40%;
+  top: 0;
   right: 0;
   color: #ffffff;
+  padding: 82px 5px;
+  background: linear-gradient(rgba(43, 65, 108,0.6),rgba(43, 65, 108,0.6))  no-repeat;
 }
 .section3
 {
