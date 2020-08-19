@@ -374,81 +374,84 @@ color: #B0CFE5;
 .section5{
   background: #E4EEF5;
 }
-.section5 h2
-{
+.section5 .container h2{
   font-weight: bold;
-font-size: 36px;
+  font-size: 36px;
 line-height: 48px;
 padding-top: 80px;
+}
+.section5 .cont
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-bottom: 150px;
+  /*font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+padding-top: 80px;*/
 /* Storm Blue */
 
 color: #28304C;
 }
 .section5 .bluestacks-features
 {
-  display: flex;
-  justify-content: space-around;
-  /*background-color: beige;*/
-  margin-top: 40px;
-}
-.section5 .bluestacks-features ul.features{
-  display: flex;
-  flex-direction: column;
+  margin-left: 40px;
   
 }
-.section5 .bluestacks-features ul.features li{
-  margin-bottom: 16px;
-  padding-right: 10px;
+.section5 .bluestacks-features ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  /*background-color:yellowgreen;*/
+  border-right: 1px solid rgba(156, 162, 183,0.2);
 }
-.section5 .bluestacks-features ul.features h3{
+.section5 .bluestacks-features  h3{
   font-weight: bold;
 font-size: 24px;
 line-height: 32px;
 border-right: none;
 /* Dark Grey */
-
 color: #556789;
 }
-.section5 .bluestacks-features ul.features p{
+.section5 .bluestacks-features ul li{
 font-weight: normal;
 font-size: 18px;
 line-height: 28px;
 /* identical to box height, or 156% */
-
 text-align: right;
-
+margin-bottom: 16px;
+padding-right: 20px;
 /* Dark Grey */
-
 color: #556789;
 }
-.section5 .bluestacks-features ul.features li.active
+.section5 .bluestacks-features ul li.active
 {
+  color: #0082E5;
   border-right: 2px solid #0082E5;
 }
-.section5 .bluestacks-features ul.features p.active{
-  color: #0082E5;
-  
-}
-.section5 .bluestacks-features .images{
+
+.section5 .cont .images{
   position: relative;
   /*background-color: brown;*/
 max-width: 722px;
 width: 100%;
 }
-.section5 .bluestacks-features .images .img1{
+.section5 .cont .images .img1{
   position: absolute;
-  z-index: 1;
+  top: 0;
   left: 2%;
+  z-index: 1;
 }
-.section5 .bluestacks-features .images .img2{
+.section5 .cont .images .img2{
   position: absolute;
-  top: 59%;
+  top: 80%;
   
 }
-.section5 .bluestacks-features .images .img3{
+.section5  .images .img3{
 position: absolute;
 right: 0%;
-bottom: 5%;
+bottom: -30%;
 }
 .section6 .top-part{
 display: flex;
