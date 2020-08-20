@@ -3,55 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width= device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>campaign-template</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="body-wrapper">
-    <header class="header-wrapper container">
+    <header class="header-wrapper ">
       <div class="container">
         <div id="left-section">
-            <div class="logo-space">
+            <figure class="logo-space">
                <a href="/" class="logo">
                 <img class="img-responsive" src="./assets/image/Components/Logo.png" alt="BlueStacks" />
               </a>
-            </div>
-            <div class="option">
+            </figure>
+            <!--<div class="option">-->
               <ul class="menu-list">
-              <li class="menu-item"><a href="javascript:void(0)">FEATURES<i class="fa fa-angle-down ii"></i></a></li>
-              <li class="menu-item"><a href="javascript:void(0)">GAMES<i class="fa fa-angle-down ii"></i></a></li>
-              <li class="menu-item"><a href="javascript:void(0)">BLOG</a></li>
+              <li class="menu-item icon"><a href="javascript:void(0)">FEATURES
+                <!--<i class="fa fa-angle-down ii"></i>--></a></li>
+              <li class="menu-item icon"><a href="javascript:void(0)">GAMES<!--<i class="fa fa-angle-down ii"></i>--></a></li>
+              <li class="menu-item icon"><a href="javascript:void(0)">BLOG</a></li>
               <li class="menu-item"><a href="javascript:void(0)">SUPPORT</a></li>
             </ul>
           </div>
-        </div>
         <div class="right-section">
             <ul class="menu-list">
-              <li class="menu-item"> <a href="/" class="logo">
+              <li class="menu-item"> 
+                <a>
                 <img class="img-responsive" src="./assets/image/Components/Search_Icon.png" alt="SearchBar" />
-              </a></li>
-              <li class="menu-item"><a href="javascript:void(0)">ENGLISH<i class="fa fa-angle-down ii" ></i></a></li>
+              </a>
+            </li>
+              <li class="menu-item icon">
+                <a href="javascript:void(0)">ENGLISH<!--<i class="fa fa-angle-down ii" ></i>-->
+                </a>
+              </li>
               
-              <li class="menu-item "><a href="javascript:void(0)" class="download">Download BlueStacks</a></li>
-              
+              <li class="menu-item ">
+                <a href="javascript:void(0)" class="download">Download BlueStacks
+                </a>
+              </li> 
             </ul>
         </div>
-      </div>
-      <div class="text_part ">
+     </div>
+      </header>
+      <div class="container">
+      <div class="text_part">
+        <figure class="king-image">
         <img src="./assets/image/Components/king.png" alt="king_image">
+      </figure>
         <h1>Rise of Kingdoms</h1>
+        <div class="app-rating">
           <img src="./assets/image/Components/Stars.png" alt="stars">
-          <img src="./assets/image/Components/bluetick.png" alt="bluetick" style="margin-left: 16px;">
-          <p class="p1">bluestacks verified
+          <!--<img src="./assets/image/Components/bluetick.png" alt="bluetick" style="margin-left: 16px;">-->
+          <p class="p1">
+        <span class="bluetick">
+        </span>
+         <span class="verified-text"> bluestacks verified</span>
           </p>
+        </div>
           <h3>lilith games</h3>
           <p>Last Updated: March 02, 2020</p>
           <br>
           <p>Play on PC with BlueStacks - The Android Gaming Platform, trusted by 400 M+ gamers. </p>
           <a href="javascript:void(0)">Download Rise of Kingdoms on PC</a>
-          
-        <p style="margin-top: 16px; opacity: 1;">Already using BlueStacks? <span style="text-decoration-line: underline; color: #77C4FF;">Open Now</span></p>
+        <p class="para">Already using BlueStacks? <span>Open Now</span></p>
   <ul class="logo-list">
   <li><img src="./assets/image/Components/icon1.png" alt="icon1"></li>
   <li><img src="./assets/image/Components/icon2.png" alt="icon2"></li>
@@ -68,15 +83,15 @@
           <li><a href="javascript:void(0)">BlueStacks Features</a></li>
         </ul>
       </div>
-
-    </header>
+      </div>
+    
   </div>
   <section class="section1 container">
     <h2>11 Civilizations, 34 Heroes, Real Warfare</h2>
     <p>
       From the depths of obscurity to the peaks of legend, you will be the author of your civilization's history. Will you launch epic wars and conquer the entire world? Or rise up as a virtuous leader renowned for your sagacity? Will you set off to explore the unknown as a pioneer? Or dedicate yourself to helping your own people?
-<br>
-<br>
+    </p>
+    <p>
 Only time will tell...
     </p>
         </section>
@@ -87,11 +102,12 @@ Only time will tell...
 </li>
 <li><img src="assets/image/Components/Rectangle_Copy2.png" width="300" height="200"></li>
 <li><img src="assets/image/Components/Rectangle_Copy3.png" width="300" height="200"></li>
-<li><img src="assets/image/Components/Rectangle_Copy4.png" width="300" height="200"><i class="fa fa-angle-right fa-2x right"></i></li>
+<li><img src="assets/image/Components/Rectangle_Copy4.png" width="300" height="200"><!--<i class="fa fa-angle-right fa-2x right"></i>--></li>
           </ul>
         </section>
         <section class="section3">
           <div class="container">
+            <div class="text-part">
           <h2>Game Features</h2>
           <h3>Real-Time Battles</h3>
           <p>Battles are not pre-calculated but happen in real time on the map. Anyone can join or leave a battle at any time, allowing true RTS gameplay. See an ally being attacked right in your backyard? Send some troops to help your buddy out, or launch a surprise counterattack on the attacker’s city.</p>
@@ -99,8 +115,9 @@ Only time will tell...
           <p>All in-game action takes place on a single, enormous map inhabited by players and NPC characters. No isolated bases or separate battle screens. Never before seen on mobile “infinite zoom” feature allows you to transition freely between the world view and individual cities or barbarian outposts. Map features include natural obstructions such as rivers and mountain ranges and strategic passes that must be captured to gain entrance to neighboring regions.</p>
           <h3>Eleven Unique Civilizations</h3>
           <p>Choose one of 11 historical civilizations (more to come!) and guide your civilization from a lone clan into a great power. Each civilization has its own architecture, unique units, and special advantages.</p>
-          <hr style="border: 1px solid rgba(156, 162, 183,0.2)">
-          <button class="button-read-more">Read More <i class="fa fa-angle-down down"></i></button>
+        </div>
+          <button class="button-read-more">Read More<!-- <i class="fa fa-angle-down down"></i>-->
+          </button>
           </div>
         </section>
         <section class="section4">
@@ -108,29 +125,29 @@ Only time will tell...
           <h2>Play Rise of Kingdoms on PC. It's easy to get started.</h2>
           <ul class="round-points">
             <li class="point-items">
-               <p><span class="round">1</span>
+               <p><!--<span class="round">1</span>-->
               <!--<img src="./assets/image/Components/Round1.png" alt="round1">-->
               Download and install BlueStacks on your PC</p>
             </li>
             <li class="point-items">
               <!--<img src="./assets/image/Components/Round2.png" alt="round2">-->
-              <p><span class="round">2</span>Complete Google sign-in to access the Play Store, or do it later</p>
+              <p><!--<span class="round">2</span>-->Complete Google sign-in to access the Play Store, or do it later</p>
             </li>
               <li class="point-items">
                 <!--<img src="./assets/image/Components/Round3.png" alt="round3">-->
-                <p> <span class="round">3</span>Look for Free Fire in the search bar at the top right corner</p>
+                <p> <!--<span class="round">3</span>-->Look for Free Fire in the search bar at the top right corner</p>
               </li>
               <li class="point-items">
                 <!--<img src="./assets/image/Components/Round4.png" alt="round4">-->
-                <p> <span class="round">4</span>Click to install Free Fire from the search results </p>
+                <p> <!--<span class="round">4</span>-->Click to install Free Fire from the search results </p>
               </li>
               <li class="point-items">
                 <!--<img src="./assets/image/Components/Round5.png" alt="round5">-->
-                <p><span class="round">5</span>Complete Google sign-in (if you skipped step 2) to install Free Fire</p>
+                <p><!--<span class="round">5</span>-->Complete Google sign-in (if you skipped step 2) to install Free Fire</p>
               </li>
               <li class="point-items">
                 <!--<img src="./assets/image/Components/Round6.png" alt="round6">-->
-                <p><span class="round">6</span>Click the Free Fire icon on the home screen to start playing</p>
+                <p><!--span class="round">6</span>-->Click the Free Fire icon on the home screen to start playing</p>
               </li>
             </ul>
             <div class="center">
@@ -167,8 +184,9 @@ Only time will tell...
               <img src="./assets/image/Mouse_b.png" alt="mouse" width="101" height="165" class="img3">
             </div>
           </div>
-          <hr style="border: 1px solid rgba(156, 162, 183,0.2); margin-top: 30px;">
-          <button class="button-read-more">Read More <i class="fa fa-angle-down down"></i></button>
+          <!--<hr style="border: 1px solid rgba(156, 162, 183,0.2); margin-top: 30px;">-->
+          <button class="button-read-more">Read More <!--<i class="fa fa-angle-down down"></i><-->
+          </button>
           </div>
         </section>
         <section class="section6 container">
@@ -178,7 +196,9 @@ Only time will tell...
 </div>
 <ul class="games">
   <li class="part">
+    <figure>
     <img src="./assets/image/Components/clashofempire.png" alt="clashofempire">
+  </figure>
     <div class="card">
     <h3>Clash of Empire: Epic Strategy War Game</h3>
     <p>Plarium LLC</p>
@@ -186,7 +206,9 @@ Only time will tell...
   </div>
 </li>
   <li class="part">
-    <img src="./assets/image/Components/riseofempire.png" alt="riseofempire">
+    <figure>
+    <img src="./assets/image/Components/riseofempire.png" alt="riseofempire" >
+  </figure>
     <div class="card">
     <h3>Rise of Empires: Ice and Fire</h3>
     <p>Long Tech Network</p>
@@ -194,7 +216,9 @@ Only time will tell...
   </div>
 </li>
   <li class="part">
+    <figure>
     <img src="./assets/image/Components/riseofkings.png" alt="riseofkings">
+    </figure>
     <div class="card">
     <h3>Rise of the Kings</h3>
     <p>ONMET</p>
@@ -276,9 +300,8 @@ Only time will tell...
           </div>
           <hr style="border:1px solid rgb(57, 69, 102);">
           <div class="last2">
-           <p style="max-width: 500px; width: 100%;">&copy 2019 BlueStacks name and logo are registered trademarks of Bluestacks Systems, Inc.
-            Terms and Privacy | Copyright Dispute Policy | EU Privacy</p>
-            <a href="#left-section"><i class="fa fa-angle-up fa-2x round"></i> </a>
+           <p style="max-width: 500px; width: 100%;">&copy 2019 BlueStacks name and logo are registered trademarks of Bluestacks Systems, Inc. Terms and Privacy | Copyright Dispute Policy | EU Privacy</p>
+            <a href="#left-section"><!--<i class="fa fa-angle-up fa-2x round"></i> --></a>
           </div>
           </div>
         </section>
